@@ -1,46 +1,38 @@
-
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
 
 /* Hide Scroll Bar In Website */
 body {
-    overflow-y: scroll;
-    scrollbar-width: none; /* Firefox */
-    -ms-overflow-style: none; /* Internet Explorer 10+ */
-  }
-  body::-webkit-scrollbar {
-    /* WebKit */
-    width: 0;
-    height: 0;
-  }
-  /* Hide the scrollbar for webkit-based browsers */
-  ::-webkit-scrollbar {
-    width: 0.5em;
-  }
-  
-  ::-webkit-scrollbar-track {
-    background-color: transparent;
-  }
-  
-  ::-webkit-scrollbar-thumb {
-    background-color: transparent;
-  }
+  overflow-y: scroll;
+  scrollbar-width: none; /* Firefox */
+  -ms-overflow-style: none; /* Internet Explorer 10+ */
+}
+body::-webkit-scrollbar {
+  /* WebKit */
+  width: 0;
+  height: 0;
+}
+/* Hide the scrollbar for webkit-based browsers */
+::-webkit-scrollbar {
+  width: 0.5em;
+}
 
-  /* Progress Bar At top of website */
-  .progress-bar {
-    position: fixed;
-    top: 0;
-    left: 0;
-    right: 0;
-    height: 5px;
-    transform-origin: 0%;
-  }
-  /* When User  Select Anything Which Color will be shown */
+::-webkit-scrollbar-track {
+  background-color: transparent;
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: transparent;
+}
+
+/* When User  Select Anything Which Color will be shown */
 ::selection {
   background: #10352b;
-  color:white;
+  color: white;
 }
- 
- 
 
+/* For when i click and blue background appeat to hide that */
+* {
+  -webkit-tap-highlight-color: transparent;
+}

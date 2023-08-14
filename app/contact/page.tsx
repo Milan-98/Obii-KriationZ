@@ -1,7 +1,7 @@
 
 const page = () => {
   return (
-    <div className="h-[1000vh]">contact</div>
+    <div className="">contact</div>
   )
 }
 

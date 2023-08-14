@@ -1,10 +1,10 @@
 "use client";
 import Image from "next/image";
-import Logo from "@/public/Images/logo.png";
 import Link from "next/link";
 import { useState } from "react";
 import { Fade as Hamburger } from "hamburger-react";
-import ArrowDown from "@/public/Images/arrowDown.svg";
+import ArrowDown from "@/public/Images/dropDown.svg";
+// Arrow svg of navbar imported here directly in svg formate not in image format
 import { Kanit } from "next/font/google";
 
 const roboto = Kanit({

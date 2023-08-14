@@ -1,8 +1,9 @@
 import "./globals.css";
 import type { Metadata } from "next";
 import { Inter } from "next/font/google";
-import Progressbar from "@/components/layouts/Progressbar";
-import Header from "@/components/layouts/Header";
+import Progressbar from "@/components/Progressbar";
+import Header from "@/components/Header";
+import Footer from "@/components/Footer";
 
 const inter = Inter({ subsets: ["latin"], weight: "400" });
 
@@ -22,6 +23,7 @@ export default function RootLayout({
         <Header />
         <Progressbar />
         {children}
+        <Footer/>
       </body>
     </html>
   );

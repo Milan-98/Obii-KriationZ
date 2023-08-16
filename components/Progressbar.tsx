@@ -17,7 +17,7 @@ const Progressbar = () => {
   }, []);
   return (
     <motion.div
-      className="fixed inset-x-0 top-0 h-[4px] origin-left transform bg-ofProgressBar lg:h-[5px]  "
+      className="fixed inset-x-0 top-0 h-[4px] origin-left transform bg-[#B0A47F] lg:h-[5px]  "
       style={{ scaleX }}
     />
   );

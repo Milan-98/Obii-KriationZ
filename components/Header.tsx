@@ -60,15 +60,15 @@ const Header = () => {
           }
           className={`${
             isHovered.services_hovered ? "translate-y-full" : "translate-y-0"
-          }  fixed inset-x-0 -top-[22.7rem] flex h-[29.5rem] bg-fontColor text-white transition-all duration-500  `}
+          }  fixed inset-x-0 -top-[23rem] flex h-[29.5rem] bg-GreenShade text-white transition-all duration-500  `}
         >
           {/* Content Box */}
           <article className="flex w-full justify-between pl-40 pr-60">
             <section className="py-[4.5rem] ">
-              <h1 className="text-5xl">Services</h1>
-              <h2 className="mb-4 mt-2 text-lg text-secondaryFont ">
+              <h3 className="text-5xl">Services</h3>
+              <h4 className="mb-4 mt-2 text-lg text-DarkGreyShade ">
                 Trusted Indian Ingenuity.
-              </h2>
+              </h4>
               <p className="w-[22rem]">
                 With a focus on a wide spectrum of cutting-edge technologies,
                 Obii KriationZ has been a driving catalyst in the creation and
@@ -78,54 +78,54 @@ const Header = () => {
                 digital landscape.
               </p>
             </section>
-            <section className="w-64 border-[#10352b] pt-[4.5rem] text-[0.884rem] text-secondaryFont">
-              <hr className="border-b-[0.5px] border-[#10352b]  " />
+            <section className="w-64 border-HrTagShade pt-[4.5rem] text-[0.884rem] text-DarkGreyShade">
+              <hr className="border-b-[0.5px] border-HrTagShade  " />
               <Link
-                className="transition-all duration-300 ease-in-out hover:text-[#b0a47f7d] "
+                className="transition-all duration-300 ease-in-out hover:text-HoverDarkGreyShade "
                 href={""}
               >
                 {" "}
                 <h3 className="py-4">Product Consultation</h3>
               </Link>
-              <hr className="border-b-[0.5px] border-[#10352b] " />
+              <hr className="border-b-[0.5px] border-HrTagShade " />
               <Link
-                className="transition-all duration-300 ease-in-out hover:text-[#b0a47f7d]"
+                className="transition-all duration-300 ease-in-out hover:text-HoverDarkGreyShade"
                 href={""}
               >
                 {" "}
                 <h3 className="py-4">Web Development</h3>
               </Link>
-              <hr className="border-b-[0.5px] border-[#10352b] " />
+              <hr className="border-b-[0.5px] border-HrTagShade " />
               <Link
-                className="transition-all duration-300 ease-in-out hover:text-[#b0a47f7d]"
+                className="transition-all duration-300 ease-in-out hover:text-HoverDarkGreyShade"
                 href={""}
               >
                 <h3 className="py-4">Cloud Services</h3>
               </Link>
 
-              <hr className="border-b-[0.5px] border-[#10352b] " />
+              <hr className="border-b-[0.5px] border-HrTagShade " />
               <Link
-                className="transition-all duration-300 ease-in-out hover:text-[#b0a47f7d]"
+                className="transition-all duration-300 ease-in-out hover:text-HoverDarkGreyShade"
                 href={""}
               >
                 <h3 className="py-4">DevOps Transformation</h3>
               </Link>
-              <hr className="border-b-[0.5px] border-[#10352b] " />
+              <hr className="border-b-[0.5px] border-HrTagShade " />
               <Link
-                className="transition-all duration-300 ease-in-out hover:text-[#b0a47f7d]"
+                className="transition-all duration-300 ease-in-out hover:text-HoverDarkGreyShade"
                 href={""}
               >
                 <h3 className="py-4">Web Visibility Boost</h3>
               </Link>
-              <hr className="border-b-[0.5px] border-[#10352b] " />
+              <hr className="border-b-[0.5px] border-HrTagShade " />
               <Link
-                className="transition-all duration-300 ease-in-out hover:text-[#b0a47f7d]"
+                className="transition-all duration-300 ease-in-out hover:text-HoverDarkGreyShade"
                 href={""}
               >
                 {" "}
                 <h3 className="py-4">Quality Assurance and Testing</h3>{" "}
               </Link>
-              <hr className="border-b-[0.5px] border-[#10352b] " />
+              <hr className="border-b-[0.5px] border-HrTagShade " />
             </section>
           </article>
         </aside>
@@ -144,15 +144,15 @@ const Header = () => {
             isHovered.capabilities_hovered
               ? "translate-y-full"
               : "translate-y-0"
-          } fixed inset-x-0 -top-[22.7rem] flex h-[29.5rem] bg-fontColor text-white transition-all duration-500`}
+          } fixed inset-x-0 -top-[23rem] flex h-[29.5rem] bg-GreenShade text-white transition-all duration-500`}
         >
           {/* Content Box */}
           <article className="flex w-full justify-between pl-40 pr-60">
             <section className="py-[4.5rem] ">
-              <h1 className="text-5xl">Capabilities</h1>
-              <h2 className="mb-4 mt-2 text-lg text-secondaryFont ">
+              <h3 className="text-5xl">Capabilities</h3>
+              <h4 className="mb-4 mt-2 text-lg text-DarkGreyShade ">
                 Empowering Digital Frontiers.
-              </h2>
+              </h4>
               <p className="w-[22rem]">
                 At Obii KriationZ, our capabilities are the cornerstone of
                 innovation. We excel in crafting and implementing tailored
@@ -161,54 +161,54 @@ const Header = () => {
                 knows no bounds.
               </p>
             </section>
-            <section className="w-64 pt-[4.5rem] text-[0.884rem] text-secondaryFont">
-              <hr className="border-b-[0.5px] border-[#10352b] " />
+            <section className="w-64 pt-[4.5rem] text-[0.884rem] text-DarkGreyShade">
+              <hr className="border-b-[0.5px] border-HrTagShade " />
               <Link
-                className="transition-all duration-300 ease-in-out hover:text-[#b0a47f7d]"
+                className="transition-all duration-300 ease-in-out hover:text-HoverDarkGreyShade"
                 href={""}
               >
                 {" "}
                 <h3 className="py-4">Product Management</h3>
               </Link>
-              <hr className="border-b-[0.5px] border-[#10352b] " />
+              <hr className="border-b-[0.5px] border-HrTagShade " />
               <Link
-                className="transition-all duration-300 ease-in-out hover:text-[#b0a47f7d]"
+                className="transition-all duration-300 ease-in-out hover:text-HoverDarkGreyShade"
                 href={""}
               >
                 {" "}
                 <h3 className="py-4">Client Base Expansion</h3>
               </Link>
-              <hr className="border-b-[0.5px] border-[#10352b] " />
+              <hr className="border-b-[0.5px] border-HrTagShade " />
               <Link
-                className="transition-all duration-300 ease-in-out hover:text-[#b0a47f7d]"
+                className="transition-all duration-300 ease-in-out hover:text-HoverDarkGreyShade"
                 href={""}
               >
                 {" "}
                 <h3 className="py-4">MVP Roadmapping</h3>
               </Link>
-              <hr className="border-b-[0.5px] border-[#10352b] " />
+              <hr className="border-b-[0.5px] border-HrTagShade " />
               <Link
-                className=" transition-all duration-300 ease-in-out hover:text-[#b0a47f7d]"
+                className=" transition-all duration-300 ease-in-out hover:text-HoverDarkGreyShade"
                 href={""}
               >
                 <h3 className="py-4">Prototyping Expertise </h3>
               </Link>
-              <hr className="border-b-[0.5px] border-[#10352b] " />
+              <hr className="border-b-[0.5px] border-HrTagShade " />
               <Link
-                className="transition-all duration-300 ease-in-out hover:text-[#b0a47f7d]"
+                className="transition-all duration-300 ease-in-out hover:text-HoverDarkGreyShade"
                 href={""}
               >
                 <h3 className="py-4">Rapid Growth Strategies</h3>
               </Link>
-              <hr className="border-b-[0.5px] border-[#10352b] " />
+              <hr className="border-b-[0.5px] border-HrTagShade " />
               <Link
-                className="transition-all duration-300 ease-in-out hover:text-[#b0a47f7d]"
+                className="transition-all duration-300 ease-in-out hover:text-HoverDarkGreyShade"
                 href={""}
               >
                 {" "}
                 <h3 className="py-4">Agile and Scrum Implementation</h3>
               </Link>
-              <hr className="border-b-[0.5px] border-[#10352b] " />
+              <hr className="border-b-[0.5px] border-HrTagShade " />
             </section>
           </article>
         </aside>
@@ -225,15 +225,15 @@ const Header = () => {
           }
           className={`${
             isHovered.company_hovered ? "translate-y-full" : "translate-y-0"
-          } fixed inset-x-0 -top-[22.7rem] flex h-[29.5rem] bg-fontColor text-white transition-all duration-500 `}
+          } fixed inset-x-0 -top-[23rem] flex h-[29.5rem] bg-GreenShade text-white transition-all duration-500 `}
         >
           {/* Content Box */}
           <article className="flex w-full justify-between pl-40 pr-60">
             <section className="py-[4.5rem] ">
-              <h1 className="text-5xl">Company</h1>
-              <h2 className="mb-4 mt-2 text-lg text-secondaryFont ">
+              <h3 className="text-5xl">Company</h3>
+              <h4 className="mb-4 mt-2 text-lg text-DarkGreyShade ">
                 A reputation of excellence.
-              </h2>
+              </h4>
               <p className="w-[22rem]">
                 Obii KriationZ stands as a distinguished provider in the IT
                 landscape. With a focus on delivering superior results, we offer
@@ -243,48 +243,48 @@ const Header = () => {
                 journey.
               </p>
             </section>
-            <section className="w-64 pt-[4.5rem] text-[0.884rem] text-secondaryFont">
-              <hr className="border-b-[0.5px] border-[#10352b] " />
+            <section className="w-64 pt-[4.5rem] text-[0.884rem] text-DarkGreyShade">
+              <hr className="border-b-[0.5px] border-HrTagShade " />
               <Link
-                className="transition-all duration-300 ease-in-out hover:text-[#b0a47f7d]"
+                className="transition-all duration-300 ease-in-out hover:text-HoverDarkGreyShade"
                 href={""}
               >
                 {" "}
                 <h3 className="py-4">About</h3>
               </Link>
-              <hr className="border-b-[0.5px] border-[#10352b] " />
+              <hr className="border-b-[0.5px] border-HrTagShade " />
               <Link
-                className="transition-all duration-300 ease-in-out hover:text-[#b0a47f7d]"
+                className="transition-all duration-300 ease-in-out hover:text-HoverDarkGreyShade"
                 href={""}
               >
                 {" "}
                 <h3 className="py-4">Leadership</h3>
               </Link>
-              <hr className="border-b-[0.5px] border-[#10352b] " />
+              <hr className="border-b-[0.5px] border-HrTagShade " />
               <Link
-                className="transition-all duration-300 ease-in-out hover:text-[#b0a47f7d]"
+                className="transition-all duration-300 ease-in-out hover:text-HoverDarkGreyShade"
                 href={""}
               >
                 {" "}
                 <h3 className="py-4">Industries</h3>
               </Link>
-              <hr className="border-b-[0.5px] border-[#10352b] " />
+              <hr className="border-b-[0.5px] border-HrTagShade " />
               <Link
-                className="transition-all duration-300 ease-in-out hover:text-[#b0a47f7d]"
+                className="transition-all duration-300 ease-in-out hover:text-HoverDarkGreyShade"
                 href={""}
               >
                 {" "}
                 <h3 className="py-4">Community</h3>
               </Link>
-              <hr className="border-b-[0.5px] border-[#10352b] " />
+              <hr className="border-b-[0.5px] border-HrTagShade " />
               <Link
-                className="transition-all duration-300 ease-in-out hover:text-[#b0a47f7d]"
+                className="transition-all duration-300 ease-in-out hover:text-HoverDarkGreyShade"
                 href={""}
               >
                 {" "}
                 <h3 className="py-4">Lagacy</h3>
               </Link>
-              <hr className="border-b-[0.5px] border-[#10352b] " />
+              <hr className="border-b-[0.5px] border-HrTagShade " />
             </section>
           </article>
         </aside>
@@ -292,12 +292,13 @@ const Header = () => {
       {/* All dropdowns over up || there */}
 
       {/* Nav bar */}
+
       <nav
-        className={`sticky top-[5px]  hidden h-[6.5rem] w-full items-center justify-between bg-main px-14 text-fontColor lg:flex`}
+        className={`sticky top-[5px]  hidden h-[6.5rem] w-full items-center justify-between bg-GreyShade px-14 text-GreenShade lg:flex`}
       >
-        {/* main logo of company */}
+        {/* GreyShade logo of company */}
         <Link href={"/"}>
-          <h1
+          <h3
             onMouseEnter={() => {
               setHovered({
                 ...isHovered,
@@ -306,16 +307,16 @@ const Header = () => {
                 company_hovered: false,
               });
             }}
-            className={`${roboto.className} select-none text-4xl  transition-colors duration-700  hover:text-buttonBorder `}
+            className={`${roboto.className}  select-none  text-4xl  `}
           >
             Obii KriationZ
-          </h1>
+          </h3>
         </Link>
         {/* pages links */}
         <ul className="flex items-center justify-center gap-10 ">
           {/* Services dropdown Button */}
           <li
-            className="relative  block w-fit cursor-pointer after:absolute after:mt-1 after:block after:h-[2px] after:w-full after:origin-center after:scale-x-0 after:bg-[#d9d3bf] after:transition after:duration-300 after:content-[''] after:hover:scale-x-100"
+            className="relative  block w-fit cursor-pointer after:absolute after:mt-1 after:block after:h-[2px] after:w-full after:origin-center after:scale-x-0 after:bg-UnderLineShadeLg after:transition after:duration-300 after:content-[''] after:hover:scale-x-100"
             onMouseEnter={() => {
               setHovered({
                 ...isHovered,
@@ -329,7 +330,7 @@ const Header = () => {
           </li>
           {/* Capabilities dropdown Button */}
           <li
-            className="relative  block w-fit cursor-pointer after:absolute after:mt-1 after:block after:h-[2px] after:w-full after:origin-center after:scale-x-0 after:bg-[#d9d3bf] after:transition after:duration-300 after:content-[''] after:hover:scale-x-100"
+            className="relative  block w-fit cursor-pointer after:absolute after:mt-1 after:block after:h-[2px] after:w-full after:origin-center after:scale-x-0 after:bg-UnderLineShadeLg after:transition after:duration-300 after:content-[''] after:hover:scale-x-100"
             onMouseEnter={() => {
               setHovered({
                 ...isHovered,
@@ -343,7 +344,7 @@ const Header = () => {
           </li>
           {/* Company Dropdown Button */}
           <li
-            className="relative block w-fit cursor-pointer after:absolute after:mt-1 after:block after:h-[2px] after:w-full after:origin-center after:scale-x-0 after:bg-[#d9d3bf] after:transition after:duration-300 after:content-[''] after:hover:scale-x-100"
+            className="relative block w-fit cursor-pointer after:absolute after:mt-1 after:block after:h-[2px] after:w-full after:origin-center after:scale-x-0 after:bg-UnderLineShadeLg after:transition after:duration-300 after:content-[''] after:hover:scale-x-100"
             onMouseEnter={() => {
               setHovered({
                 ...isHovered,
@@ -357,7 +358,7 @@ const Header = () => {
           </li>
           {/* Career Page Button */}
           <Link
-            className=" relative block w-fit after:absolute after:mt-1 after:block after:h-[2px] after:w-full after:origin-center after:scale-x-0 after:bg-[#d9d3bf] after:transition after:duration-300 after:content-[''] after:hover:scale-x-100"
+            className=" relative block w-fit after:absolute after:mt-1 after:block after:h-[2px] after:w-full after:origin-center after:scale-x-0 after:bg-UnderLineShadeLg after:transition after:duration-300 after:content-[''] after:hover:scale-x-100"
             onMouseEnter={() => {
               setHovered({
                 ...isHovered,
@@ -382,12 +383,12 @@ const Header = () => {
             }}
             href={"/contact"}
           >
-            <li className="group flex items-center justify-between rounded-full border-2 border-buttonBorder py-2 pl-6  pr-5 transition-all duration-200 ease-in-out hover:border-fontColor hover:bg-fontColor hover:py-[.69rem]  hover:text-[#f3f3f3]">
+            <li className="group flex items-center justify-between rounded-full border-2 border-DarkGreyShade py-2 pl-6  pr-5 transition-all duration-200 ease-in-out hover:border-GreenShade hover:bg-GreenShade hover:py-[.69rem]  hover:text-white">
               {" "}
               Contact Us
               {/*Arrow Svg  */}
               <svg
-                className="ml-1 fill-buttonBorder transition-all duration-200 group-hover:rotate-90 "
+                className="ml-1 fill-DarkGreyShade transition-all duration-200 group-hover:rotate-90 "
                 xmlns="http://www.w3.org/2000/svg"
                 width="24"
                 height="24"
@@ -413,12 +414,12 @@ const Header = () => {
         }}
         className={`${
           menuButton ? "translate-y-full" : "translate-y-0"
-        } fixed inset-x-0 -top-[100vh]  h-[100vh] select-none overflow-scroll bg-main  text-fontColor transition-all duration-500 lg:hidden `}
+        } fixed inset-x-0 -top-[100vh]  h-[100vh] select-none overflow-scroll bg-GreyShade  text-GreenShade transition-all duration-500 lg:hidden `}
       >
         <section
           className={`${
             mobileDropdown.services_clicked ? "h-[17.5rem]" : "h-[4.45rem] "
-          }  mt-[3.8rem] overflow-hidden border-y-2 border-[#d9d3bf6c] transition-height duration-700 ease-in-out md:mt-[5.4rem]`}
+          }  mt-[3.8rem] overflow-hidden border-y-2 border-[#e3decf] transition-height duration-700 ease-in-out md:mt-[5.4rem]`}
         >
           <div
             onClick={() => {
@@ -431,7 +432,7 @@ const Header = () => {
             }}
             className={`flex justify-between px-5 py-4 md:px-10`}
           >
-            <h1 className={`${roboto.className} text-2xl`}>SERVICES</h1>
+            <h2 className={`${roboto.className} text-2xl`}>SERVICES</h2>
             <Image
               className={`${
                 mobileDropdown.services_clicked ? "-rotate-180" : "rotate-0"
@@ -453,7 +454,7 @@ const Header = () => {
         <section
           className={`${
             mobileDropdown.capabilities_clicked ? "h-[17.5rem]" : "h-[4.45rem]"
-          } overflow-hidden border-b-2 border-[#d9d3bf6c] transition-height duration-700 ease-in-out`}
+          } overflow-hidden border-b-2 border-[#e3decf] transition-height duration-700 ease-in-out`}
         >
           <div
             onClick={() => {
@@ -466,7 +467,7 @@ const Header = () => {
             }}
             className="flex justify-between px-5 py-4 md:px-10 "
           >
-            <h1 className={`${roboto.className} text-2xl`}>CAPABILITIES </h1>
+            <h2 className={`${roboto.className} text-2xl`}>CAPABILITIES </h2>
             <Image
               className={`${
                 mobileDropdown.capabilities_clicked ? "-rotate-180" : "rotate-0"
@@ -487,7 +488,7 @@ const Header = () => {
         <section
           className={`${
             mobileDropdown.company_clicked ? "h-[15.5rem]" : "h-[4.45rem]"
-          } overflow-hidden border-b-2 border-[#d9d3bf6c] transition-height duration-700 ease-in-out`}
+          } overflow-hidden border-b-2 border-[#e3decf] transition-height duration-700 ease-in-out`}
         >
           <div
             onClick={() => {
@@ -500,7 +501,7 @@ const Header = () => {
             }}
             className="flex justify-between px-5 py-4 md:px-10"
           >
-            <h1 className={`${roboto.className} text-2xl`}>COMPANY</h1>
+            <h2 className={`${roboto.className} text-2xl`}>COMPANY</h2>
             <Image
               className={`${
                 mobileDropdown.company_clicked ? "-rotate-180" : "rotate-0"
@@ -517,33 +518,33 @@ const Header = () => {
             <li className="py-[.30rem]">Legacy</li>
           </ul>
         </section>
-        <section className="border-b-2 border-[#d9d3bf6c]">
+        <section className="border-b-2 border-[#e3decf]">
           <div className="flex justify-between px-5 py-4 md:px-10">
-            <h1 className={`${roboto.className} text-2xl`}>CAREERS</h1>
+            <h2 className={`${roboto.className} text-2xl`}>CAREERS</h2>
           </div>
         </section>
-        <section className="border-b-2 border-[#d9d3bf6c]">
+        <section className="border-b-2 border-[#e3decf]">
           <div className="flex justify-between px-5 py-4 md:px-10">
-            <h1 className={`${roboto.className} text-2xl`}>CONTACT US</h1>
+            <h2 className={`${roboto.className} text-2xl`}>CONTACT US</h2>
           </div>
         </section>
       </aside>
-      {/* Aside for everyscreen sizes progressbar background  */}
+      {/* Aside for everyscreen sizes progressbar background for all screen */}
       <aside
-        className={` fixed inset-x-0 top-0 h-[4px] bg-fontColor lg:h-[5px] `}
+        className={` fixed inset-x-0 top-0 h-[4px] bg-GreenShade lg:h-[5px] `}
       ></aside>
 
       {/* Mobile screen navbar */}
-      <nav className="sticky inset-x-0 top-[4px] flex h-14 items-center justify-between bg-main pl-4 pr-1 md:h-20 md:pl-10 md:pr-10 lg:hidden">
-        <h1
-          className={`${roboto.className} select-none text-2xl hover:text-fontColor md:text-3xl`}
+      <nav className="sticky inset-x-0 top-[4px] flex h-14 items-center justify-between bg-GreyShade pl-4 pr-1 md:h-20 md:pl-10 md:pr-10 lg:hidden">
+        <h3
+          className={`${roboto.className} select-none text-2xl hover:text-GreenShade md:text-3xl`}
         >
           Obii KriationZ
-        </h1>
+        </h3>
         <Hamburger
           toggled={menuButton}
           toggle={setMenuButtonFunction}
-          color="#b0a47f"
+          color="#B0A47F"
           distance="sm"
           size={24}
         />
